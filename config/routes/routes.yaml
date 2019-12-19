@@ -1,0 +1,11 @@
+authentication_token:
+    path: /authentication_token
+    methods: ['POST']
+
+graphiql:
+    path: /api/docs/graphiql
+    controller: api_platform.graphql.action.graphiql
+
+graphql_playground:
+    path: /api/docs/graphql_playground
+    controller: api_platform.graphql.action.graphql_playground
